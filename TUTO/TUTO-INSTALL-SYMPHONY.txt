@@ -1,11 +1,11 @@
 1 telecharger composer (https://getcomposer.org/download/) :  Composer-Setup.exe
 2 lancer commande composer
 	cd repertoire ou est le projet Git
-	composer create-project symfony/framework-standard-edition nom-du-projet
+	composer create-project symfony/skeleton my-project
 
-	paramètres : tout enter
+	paramÃ¨tres : tout enter
 
 	
 3 lancer netbeans
-4 nouveau projet PHP à partir de sources existantes
-5 pointer sur la sources des fichiers installés par composer
+4 nouveau projet PHP Ã  partir de sources existantes
+5 pointer sur la sources des fichiers installÃ©s par composer
