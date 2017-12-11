@@ -1,0 +1,67 @@
+Dictionnaire de données 
+
+Nom : id_client
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : nom_client
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : prenom_client
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : tel_client
+Type : Int
+Taille : 10,0
+Commentaire : 
+
+Nom : id_rdv
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : jour_heure_rdv
+Type : Date
+Taille : 25,0
+Commentaire : 
+
+Nom : id_facture
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : montant_facture
+Type : Float
+Taille : 25,0
+Commentaire : 
+
+Nom : Etat
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : date_facture
+Type : Auto_increment
+Taille : 25,2
+Commentaire : 
+
+Nom : date_facture
+Type : Date
+Taille : 25,0
+Commentaire : 
+
+Nom : tel_client
+Type : Varchar
+Taille : 10,0
+Commentaire : 
+
+Nom : etat_facture
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
