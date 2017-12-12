@@ -9,3 +9,11 @@
 3 lancer netbeans
 4 nouveau projet PHP à partir de sources existantes
 5 pointer sur la sources des fichiers installés par composer
+
+Symfony dependencies installed
+
+## Annotation ( composer require annotation )
+## Doctrine ( composer require doctrine maker )
+## Twig	( composer require twig )
+## Profiler ( composer require --dev profiler )
+
