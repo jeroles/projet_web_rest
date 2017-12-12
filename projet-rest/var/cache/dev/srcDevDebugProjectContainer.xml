@@ -6,7 +6,7 @@
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.debug">true</parameter>
     <parameter key="kernel.name">src</parameter>
-    <parameter key="kernel.cache_dir">C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev</parameter>
+    <parameter key="kernel.cache_dir">C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev</parameter>
     <parameter key="kernel.logs_dir">C:\wamp64\www\projet_web_rest\projet-rest\var\log</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
@@ -36,7 +36,7 @@
     <parameter key="debug.file_link_format">null</parameter>
     <parameter key="data_collector.templates" type="collection"/>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
-    <parameter key="debug.container.dump">C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev/srcDevDebugProjectContainer.xml</parameter>
+    <parameter key="debug.container.dump">C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev/srcDevDebugProjectContainer.xml</parameter>
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
@@ -405,7 +405,7 @@
       <tag name="cache.pool"/>
       <argument>ES4Fahtc93</argument>
       <argument>0</argument>
-      <argument>C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev/pools</argument>
+      <argument>C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="logger" on-invalid="ignore"/>
       </call>
@@ -414,8 +414,8 @@
       <tag name="cache.pool"/>
       <argument>Ref11w4DMa</argument>
       <argument>0</argument>
-      <argument>HkqvnThwaky5DniYxqf2DT</argument>
-      <argument>C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev/pools</argument>
+      <argument>fvwFOZHC3V7xPoYBMG+qfe</argument>
+      <argument>C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -423,8 +423,8 @@
       <tag name="cache.pool"/>
       <argument>GaLHdgKGZs</argument>
       <argument>0</argument>
-      <argument>HkqvnThwaky5DniYxqf2DT</argument>
-      <argument>C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev/pools</argument>
+      <argument>fvwFOZHC3V7xPoYBMG+qfe</argument>
+      <argument>C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -432,8 +432,8 @@
       <tag name="cache.pool"/>
       <argument>voz-VjS5qz</argument>
       <argument>0</argument>
-      <argument>HkqvnThwaky5DniYxqf2DT</argument>
-      <argument>C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev/pools</argument>
+      <argument>fvwFOZHC3V7xPoYBMG+qfe</argument>
+      <argument>C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -441,8 +441,8 @@
       <tag name="cache.pool"/>
       <argument>FM9V-USzvW</argument>
       <argument>0</argument>
-      <argument>HkqvnThwaky5DniYxqf2DT</argument>
-      <argument>C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev/pools</argument>
+      <argument>fvwFOZHC3V7xPoYBMG+qfe</argument>
+      <argument>C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -451,8 +451,8 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>HkqvnThwaky5DniYxqf2DT</argument>
-      <argument>C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev/pools</argument>
+      <argument>fvwFOZHC3V7xPoYBMG+qfe</argument>
+      <argument>C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -461,7 +461,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>HkqvnThwaky5DniYxqf2DT</argument>
+      <argument>fvwFOZHC3V7xPoYBMG+qfe</argument>
       <call method="setLogger">
         <argument type="service" id="logger" on-invalid="ignore"/>
       </call>
@@ -481,7 +481,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev/pools</argument>
+      <argument>C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="logger" on-invalid="ignore"/>
       </call>
@@ -619,7 +619,7 @@
       <argument type="service" id="service_container"/>
       <argument>kernel:loadRoutes</argument>
       <argument type="collection">
-        <argument key="cache_dir">C:/wamp64/www/projet_web_rest/projet-rest/var/cache/dev</argument>
+        <argument key="cache_dir">C:\wamp64\www\projet_web_rest\projet-rest\var\cache\dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
         <argument key="generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
